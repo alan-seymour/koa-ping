@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "parser": "espree",
+  "plugins": ["node"],
+  "env": {
+    "browser": false,
+    "node": true,
+    "mocha": true
+  },
+  "extends": ["airbnb-base", "plugin:node/recommended"],
+  "rules": {
+    "node/exports-style": ["error", "module.exports"],
+    "no-console": 0,
+    "no-prototype-builtins": 0,
+    "no-param-reassign": 0,
+    "max-len": 0,
+    "no-unused-vars": ["error", {"args": "none"}],
+    "no-plusplus": ["error", {"allowForLoopAfterthoughts": true}],
+    "no-underscore-dangle": 0,
+    "no-empty-function": 0,
+    "import/no-dynamic-require": 0
+  }
+}

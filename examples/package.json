@@ -1,9 +1,9 @@
 {
-  "name": "koa-ping-example",
+  "name": "koa2-ping-example",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "koa": "^0.13.0"
+    "koa": ">2.0.0"
   }
 }

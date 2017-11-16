@@ -1,16 +1,18 @@
-koa-ping
+koa2-ping
 ========
 
-Make koa apps check internal status and health. This project is inspired by **[express-ping](https://github.com/palmerabollo/express-ping)**
+Make koa2+ apps check internal status and health. 
+This project is a fork of **[koa-ping](https://github.com/AlexeyKhristov/koa-ping)** with updates to work on newer version of koa
+This project is inspired by **[express-ping](https://github.com/palmerabollo/express-ping)**
 
 Usage
 -----
 
-* Save "koa-ping" to your package.json dependencies ```npm install koa-ping --save```
+* Save "koa2-ping" to your package.json dependencies ```npm install koa2-ping --save```
 * Include the middleware in your koa application:
 
 ```javascript
-var health = require('koa-ping');
+var health = require('koa2-ping');
 var koa = require('koa');
 
 var app = koa();
