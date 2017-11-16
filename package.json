@@ -1,14 +1,17 @@
 {
-  "name": "koa-ping",
-  "version": "0.1.1",
-  "description": "Make koa apps check internal status and health. Inspired by express-ping",
+  "name": "koa2-ping",
+  "version": "0.2.0",
+  "description": "Make koa2+ apps check internal status and health. Inspired by express-ping",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexeyKhristov/koa-ping.git"
+    "url": "https://github.com/alan-seymour/koa2-ping.git"
   },
   "keywords": [
     "koa",
@@ -16,16 +19,23 @@
     "middleware",
     "health",
     "ping",
-    "api"
+    "api",
+    "koa2"
   ],
-  "author": "Alexey Khristov <sword.and.digit@gmail.com>",
+  "author": "Alan Seymour <alan@alanseymour.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlexeyKhristov/koa-ping/issues"
+    "url": "https://github.com/alan-seymour/koa2-ping/issues"
   },
-  "homepage": "https://github.com/AlexeyKhristov/koa-ping",
+  "homepage": "https://github.com/alan-seymour/koa2-ping",
   "dependencies": {
     "node-df": "^0.1.1",
     "app-root-path": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1"
   }
 }
