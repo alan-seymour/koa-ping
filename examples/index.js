@@ -11,7 +11,7 @@ const app = new Koa();
 // OR using custom URL
 let customUrl = '';
 customUrl = '/test/ping';
-app.use(health(customUrl));
+app.use(health(customUrl, ['timestamp']));
 
 app.listen(3000);
 

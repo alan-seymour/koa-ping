@@ -217,6 +217,12 @@ You don't need to configure anything. By default, a `/ping` endpoint will be add
 app.use(health.ping('/custompath'));
 ```
 
+If you don't want specific top level fields to be returned on the end point, you can pass an array of keys to filter out:
+
+```js
+app.use(health.ping('/ping', ['application', 'timestamp']));
+```
+
 Notes
 -----
 * Thanks to Guido García [@palmerabollo](https://github.com/palmerabollo)
